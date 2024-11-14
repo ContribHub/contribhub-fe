@@ -6,12 +6,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 //컴포넌트
 import Home from './pages/Home';
 
-
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
-  }
+  },
 ]);
 
 const root = ReactDOM.createRoot(
