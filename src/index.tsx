@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //컴포넌트
 import Home from './pages/Home';
+import HeadLayout from './components/common/Layout/HeadLayout';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />;
+    <HeadLayout>
+      <RouterProvider router={router} />
+    </HeadLayout>
   </React.StrictMode>
 );
 
