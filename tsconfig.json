@@ -3,7 +3,6 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -13,7 +12,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "ES2015",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
