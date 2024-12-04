@@ -36,16 +36,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
-    // new ESLintPlugin({
-    //   // Plugin options
-    //   extensions: ['js', 'jsx', 'ts', 'tsx'],
-    //   emitError: true,
-    //   emitWarning: true,
-    //   failOnError: false,
-    //   failOnWarning: false,
-    //   useEslintrc: false,
-    //   cache: true,
-    // }),
+    new ESLintPlugin({
+      // Plugin options
+      extensions: ['js', 'jsx', 'ts', 'tsx'],
+      emitError: false,
+      emitWarning: false,
+      failOnError: false,
+      failOnWarning: false,
+      useEslintrc: false,
+    }),
   ],
   devtool: 'source-map',
 };

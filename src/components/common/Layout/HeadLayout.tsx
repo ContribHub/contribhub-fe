@@ -4,7 +4,10 @@ interface LayoutProps {
 function HeadLayout(props: LayoutProps) {
   return (
     <div>
-      <header>헤더입니다.!!</header>
+      <div>
+        <div>로고</div>
+        <div>로그인 영역</div>
+      </div>
       <div>{props.children}</div>
     </div>
   );
