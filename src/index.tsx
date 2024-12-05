@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+//reset css
+import './init.css';
+
 //컴포넌트
 import Home from './pages/Home';
 import HeadLayout from './components/common/Layout/HeadLayout';
