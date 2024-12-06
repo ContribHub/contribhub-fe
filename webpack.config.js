@@ -39,11 +39,11 @@ module.exports = {
     new ESLintPlugin({
       // Plugin options
       extensions: ['js', 'jsx', 'ts', 'tsx'],
-      emitError: false,
-      emitWarning: false,
-      failOnError: false,
-      failOnWarning: false,
-      useEslintrc: false,
+      emitError: true,
+      emitWarning: true,
+      failOnError: true,
+      failOnWarning: true,
+      configType: 'flat',
     }),
   ],
   devtool: 'source-map',
